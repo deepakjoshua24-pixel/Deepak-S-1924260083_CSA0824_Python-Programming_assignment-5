@@ -1,0 +1,16 @@
+         61388 function calls in 0.211 seconds
+
+   Ordered by: cumulative time
+   List reduced from 19 to 8 due to restriction <8>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.029    0.029    0.211    0.211 /mnt/data/CSA08_CO5_Deepak_S_Project/Task07_Benchmarking/benchmark.py:13(loops)
+     8761    0.083    0.000    0.175    0.000 /usr/lib/python3.13/csv.py:174(__next__)
+     8762    0.085    0.000    0.086    0.000 {built-in method builtins.next}
+     8760    0.007    0.000    0.007    0.000 {method 'setdefault' of 'dict' objects}
+    17521    0.005    0.000    0.005    0.000 /usr/lib/python3.13/csv.py:160(fieldnames)
+    17520    0.002    0.000    0.002    0.000 {built-in method builtins.len}
+       26    0.000    0.000    0.000    0.000 <frozen codecs>:322(decode)
+       26    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+
+
